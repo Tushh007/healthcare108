@@ -1,0 +1,56 @@
+<mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Gender
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+              Shows the plot for heart disease grouped by gender.
+            </mat-panel-description> -->
+          </mat-expansion-panel-header>
+      
+          <mat-form-field>
+            <input matInput placeholder="First name">
+          </mat-form-field>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Blood Gulcose
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+              Shows the plot for heart diseases grouped by blood gulcose levels.
+            </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>I'm visible because I am open</p>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Excercise
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+              Shows the plot for heart diseases grouped by excercie routines.
+            </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>I'm visible because I am open</p>
+        </mat-expansion-panel>
+
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Age
+            </mat-panel-title>
+            <!-- <mat-panel-description>
+              Shows the plot for heart diseases grouped by ages.
+            </mat-panel-description> -->
+          </mat-expansion-panel-header>
+          <p>I'm visible because I am open</p>
+        </mat-expansion-panel>
+        
+      </mat-accordion>
