@@ -10,6 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class UploadDataComponent implements OnInit {
 
   @Input() type: string;
+  @Input() title: string;
 
   selectedFile: File = null;
   fileName = null;
@@ -17,7 +18,6 @@ export class UploadDataComponent implements OnInit {
   constructor(private http: HttpClient, private snackBar: MatSnackBar) { }
 
   ngOnInit() {
-    console.log(this.type);
   }
 
   onFileChanged(event) {

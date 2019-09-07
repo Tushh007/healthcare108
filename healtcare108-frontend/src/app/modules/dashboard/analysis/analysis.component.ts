@@ -7,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AnalysisComponent implements OnInit {
 
-  panelOpenState = false;
+  // panelOpenState = false;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  panelOpenState(type: string) {
+    console.log(type);
   }
 
 }
