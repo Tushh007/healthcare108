@@ -4,16 +4,7 @@
     background-color: white;
 }
 
-.date {
-  margin: auto;
-  width: 80%;
-  /* padding: 10px; */
-}
-
 mat-card {
-    height: auto;
-    width: 18rem;
-    margin: 2rem;
     justify-content: center;
     text-align: center;
     background-color:#FAFAFA;
