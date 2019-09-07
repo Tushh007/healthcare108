@@ -4,14 +4,15 @@
             <mat-panel-title>
               Gender
             </mat-panel-title>
-            <!-- <mat-panel-description>
-              Shows the plot for heart disease grouped by gender.
-            </mat-panel-description> -->
           </mat-expansion-panel-header>
       
-          <mat-form-field>
-            <input matInput placeholder="First name">
-          </mat-form-field>
+          <div class="cardList" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important; width: 100%;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/">
+                    </mat-card-content>
+                </mat-card>
+            </div>
         </mat-expansion-panel>
 
         <mat-expansion-panel (opened)="panelOpenState = true"
@@ -20,11 +21,15 @@
             <mat-panel-title>
               Blood Gulcose
             </mat-panel-title>
-            <!-- <mat-panel-description>
-              Shows the plot for heart diseases grouped by blood gulcose levels.
-            </mat-panel-description> -->
           </mat-expansion-panel-header>
-          <p>I'm visible because I am open</p>
+
+          <div class="cardList" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important; width: 100%;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/?image_name=blood">
+                    </mat-card-content>
+                </mat-card>
+            </div>
         </mat-expansion-panel>
 
         <mat-expansion-panel (opened)="panelOpenState = true"
@@ -33,11 +38,14 @@
             <mat-panel-title>
               Excercise
             </mat-panel-title>
-            <!-- <mat-panel-description>
-              Shows the plot for heart diseases grouped by excercie routines.
-            </mat-panel-description> -->
           </mat-expansion-panel-header>
-          <p>I'm visible because I am open</p>
+          <div class="cardList" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important; width: 100%;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/?image_name=excercise">
+                    </mat-card-content>
+                </mat-card>
+            </div>
         </mat-expansion-panel>
 
         <mat-expansion-panel (opened)="panelOpenState = true"
@@ -46,11 +54,23 @@
             <mat-panel-title>
               Age
             </mat-panel-title>
-            <!-- <mat-panel-description>
-              Shows the plot for heart diseases grouped by ages.
-            </mat-panel-description> -->
           </mat-expansion-panel-header>
-          <p>I'm visible because I am open</p>
+          <div class="cardList" fxLayout="row" fxLayoutGap="32px" fxLayout.xs="column">
+                <mat-card style="box-shadow: none !important; width: 50%;">
+                    <mat-card-content>
+                        <img src="http://40.78.132.182/calculation/getimage/?image_name=heartdiagpositive">
+                    </mat-card-content>
+                </mat-card>
+
+                <mat-card style="box-shadow: none !important; width: 50%;">
+                        <mat-card-content>
+                            <img src="http://40.78.132.182/calculation/getimage/?image_name=heartdiagnegative">
+                        </mat-card-content>
+                    </mat-card>
+            </div>
         </mat-expansion-panel>
         
       </mat-accordion>
+            
+         
+        
