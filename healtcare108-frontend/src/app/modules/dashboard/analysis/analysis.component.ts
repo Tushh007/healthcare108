@@ -14,8 +14,8 @@ export class AnalysisComponent implements OnInit {
   ngOnInit() {
   }
 
-  panelOpenState(type: string) {
-    console.log(type);
-  }
+  // panelOpenState(type: string) {
+  //   console.log(type);
+  // }
 
 }
